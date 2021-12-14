@@ -19,8 +19,10 @@ $ cd erc20-minting-boilerplate
 
 ### 2. Create your DApp with Bunzz
 
-Please access to [Bunzz]().
+Please access to [Bunzz](https://app.bunzz.dev).
 And pease refer to [this video]() to create a DApp project and deploy smart contract.
+
+For this application, you need to deploy "Token (ERC20)" smart contract at a minimum.
 
 ### 3. Get DApp ID and API Key
 
@@ -47,6 +49,16 @@ REACT_APP_API_KEY=YOUR_API_KEY
 ### 4. Start application
 
 ```bash
+$ yarn install
 $ yarn start
 ```
 
+### 5. Try to use application
+
+This is the screen for minting the ERC20 Token (Funsible Token).
+<img width="1440" alt="スクリーンショット 2021-12-14 11 29 07" src="https://user-images.githubusercontent.com/53442928/145922057-66f7e102-17a6-40a1-98c8-4db3335e7c69.png">
+
+Now let's mint the ERC20 Token. Enter the amount of the Token.
+When you are done, press the "mint" button.
+
+Minting creates ERC20 Token on the blockchain.
