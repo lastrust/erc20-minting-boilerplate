@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { bunzz } from "bunzz-sdk";
+import bunzz from "bunzz-sdk";
 
 import "./App.css";
 
